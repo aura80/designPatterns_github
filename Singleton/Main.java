@@ -1,4 +1,5 @@
-package designPatterns_github.Singleton;
+package designPatterns_github.designPatterns_github.Singleton;
+
 
 public class Main {
     public static void main(String[] args) {

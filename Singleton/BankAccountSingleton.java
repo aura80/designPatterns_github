@@ -1,8 +1,8 @@
-package designPatterns_github.Singleton;
+package designPatterns_github.designPatterns_github.Singleton;
 
 import java.util.Objects;
 
-public class BankAccountSingleton implements Messages{
+public class BankAccountSingleton implements Messages {
 
     private static BankAccountSingleton instance = null;
     private String name;
