@@ -1,4 +1,4 @@
-package designPatterns_github.designPatterns_github.Singleton;
+package designPatterns_github.designPatterns_github.singleton;
 
 public interface Messages {
     public static final String str1 = "Initial amount of money: ";

@@ -1,4 +1,4 @@
-package designPatterns_github.designPatterns_github.Singleton;
+package designPatterns_github.designPatterns_github.singleton;
 
 import java.util.Objects;
 
