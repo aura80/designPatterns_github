@@ -1,10 +1,9 @@
 package designPatterns_github.designPatterns_github.factory1;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class MakeInventory {
+public class MakeInventoryMain {
     public static void main(String[] args) {
         List<String> productNameList = Arrays.asList("Cheese with sour cream", "Cow Milk 1,5%", "Lemon Juice",
                 "Carpati water", "The Power of The Bear Red Wine", "Pork beef mixture",
