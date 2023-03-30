@@ -1,14 +1,14 @@
-package designPatterns_github.designPatterns_github.factory2;
+package designPatterns_github.designPatterns_github.factory2_with_enums;
 
 import java.util.Objects;
 
-public class DeviceWaterPurifier implements Device{
+public class DeviceTV implements Device{
     private String deviceName;
     private float devicePrice;
     private String deviceColor;
     Manufacturer deviceManufacturer;
 
-    public DeviceWaterPurifier(String deviceName, float devicePrice, String deviceColor, Manufacturer deviceManufacturer) {
+    public DeviceTV(String deviceName, float devicePrice, String deviceColor, Manufacturer deviceManufacturer) {
         this.deviceName = deviceName;
         this.devicePrice = devicePrice;
         this.deviceColor = deviceColor;
@@ -37,7 +37,7 @@ public class DeviceWaterPurifier implements Device{
 
     @Override
     public String toString() {
-        return "DeviceWaterPurifier{" +
+        return "Televizor{" +
                 "deviceName='" + deviceName + '\'' +
                 ", devicePrice=" + devicePrice +
                 ", deviceColor='" + deviceColor + '\'' +
@@ -49,8 +49,8 @@ public class DeviceWaterPurifier implements Device{
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        DeviceWaterPurifier that = (DeviceWaterPurifier) o;
-        return Float.compare(that.devicePrice, devicePrice) == 0 && Objects.equals(deviceName, that.deviceName) && Objects.equals(deviceColor, that.deviceColor) && deviceManufacturer == that.deviceManufacturer;
+        DeviceTV deviceTV = (DeviceTV) o;
+        return Float.compare(deviceTV.devicePrice, devicePrice) == 0 && Objects.equals(deviceName, deviceTV.deviceName) && Objects.equals(deviceColor, deviceTV.deviceColor) && deviceManufacturer == deviceTV.deviceManufacturer;
     }
 
     @Override

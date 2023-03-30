@@ -1,4 +1,4 @@
-package designPatterns_github.designPatterns_github.factory2;
+package designPatterns_github.designPatterns_github.factory2_with_enums;
 
 import java.util.*;
 
