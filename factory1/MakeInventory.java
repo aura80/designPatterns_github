@@ -6,7 +6,7 @@ import java.util.List;
 
 public class MakeInventory {
     public static void main(String[] args) {
-        List<String> productNameList = Arrays.asList("Cheese with sour cream", "Cow Milk 1,5%", "Lemon Juice",
+        List<String> productNameList = Arrays.asList("Cheese with sour cream", "Cow Milk 1,5%", "Lemon Juice", 
                 "Carpati water", "The Power of The Bear Red Wine", "Pork beef mixture",
                 "Sibiu salami", "Cheese Cake with fruits", "Poiana Dark Chocolate", "Iceberg salad", "Cherry tomatoes");
 
