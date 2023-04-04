@@ -13,7 +13,7 @@ public class Apartment {
     private Integer noBathrooms;
     private Integer noBalcony;
 
-    public Apartment(ApartmentBuilder apartmentBuilder) {
+    private Apartment(ApartmentBuilder apartmentBuilder) {
         this.townArea = apartmentBuilder.townArea;
         this.isFinished = apartmentBuilder.isFinished;
         this.noRooms = apartmentBuilder.noRooms;
@@ -119,6 +119,7 @@ public class Apartment {
             this.positionEVSN = positionEVSN;
         }
 
+        // configuring methods
         public ApartmentBuilder withTownArea(String townArea) {
             this.townArea = townArea;
             return this;
@@ -144,6 +145,7 @@ public class Apartment {
             return this;
         }
 
+        // creates the target object
         public Apartment build() {
             return new Apartment(this);
         }

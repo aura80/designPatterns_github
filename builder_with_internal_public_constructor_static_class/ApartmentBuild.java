@@ -72,10 +72,12 @@ public class ApartmentBuild {
                             + hint + apartments.get(3).getNoBathrooms() + baths
                             + hint + apartments.get(3).getPositionEVSN2()
                             + hint + apartments.get(3).getIsFinished());
+
                     System.out.print("Total price per central area:    ");
                     System.out.printf("%.2f", apartments.get(0).getPrice() + apartments.get(3).getPrice());
                     System.out.println(" " + money);
-                    break;}
+                    break;
+                }
                 case "I": case "i":
                     System.out.println(apartments.get(1).getTownArea() + hint + apartments.get(1).getPrice() + money
                             + hint + level + apartments.get(1).getLevel() + hint + apartments.get(1).getNoRooms()
