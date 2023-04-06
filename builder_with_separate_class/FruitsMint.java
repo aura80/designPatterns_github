@@ -8,6 +8,7 @@ public enum FruitsMint {
     MINT("Mint");
 
     public final String message;
+
     FruitsMint(String message) {
         this.message = message;
     }
