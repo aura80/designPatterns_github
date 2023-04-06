@@ -82,7 +82,7 @@ public class MakeLemonade {
                     break;
                 case "Mint":
                 case "mint":
-                    if (mapFruits.get(FruitsMint.MELON.getMessage())) {
+                    if (mapFruits.get(FruitsMint.MINT.getMessage())) {
                         System.out.println("Order in preparation");
                     } else {
                         System.out.println("Mint is missing");
