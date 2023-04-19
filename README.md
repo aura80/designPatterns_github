@@ -9,10 +9,10 @@ KISS - Keep It Stupid Simple - code as simple as possible;
 YAGHI - You Aren't Gonna Need It - we have to delete what we do not use;
 
 Manifesto - similar to Agile Manifesto; 
-                    - well-crafted sw, over working sw;       
-                    - adding value, over being responsive to changes;       
-                    - community of professionals, over interactions between individuals;       
-                    - partnerships, over customer collaboration;
+                    * well-crafted sw, over working sw;       
+                    * adding value, over being responsive to changes;       
+                    * community of professionals, over interactions between individuals;       
+                    * partnerships, over customer collaboration;
 
 --- SOLID PRINCIPLES ---
 
