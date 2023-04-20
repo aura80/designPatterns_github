@@ -30,6 +30,7 @@ DEPENDENCY INVERSION - high-level modules should not depend on low-level module,
 
 SINGLETON
 
+    - creational design pattern;
     - one single object that can be accessed public;
     - it saves memory;
     - eager singleton: object created at the beginning of the application;
@@ -38,4 +39,12 @@ SINGLETON
 
 FACTORY
 
-    - 
+    - creational design pattern;
+    - creating objects from a family of objects, based on a property;
+    - interfaces or abstract classes are used to create objects;
+    - a separate method as a factory is defined to create objects;
+    - subclasses can call factory for objects creation; 
+    - objects can be modified in subclasses;
+    - can be used when we don't know exactly beforehand the exact type of objects and dependencies;
+    - we can extend and modify code, but also hide  
+    - disadvantage - too many subclasses - Prototype pattern will solve that inconvenient by copying objects, using the clone() method and circular references; 
