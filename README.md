@@ -1,5 +1,15 @@
 # designPatterns_github
 
+--- CLEAN CODE ---
+
+All the names should be suggestive and related to what they should implement;
+Name of the class should be a noun or a group of nouns written in Camel Case;
+Name of the variables should describe what they are used for;
+Name of the methods should contain a verb and should describe what they are used for;
+Methods should contain no more than 20 lines of code, but if they don't, those methods should not have very important functionalities and should be separated in smaller methods;
+
+
+
 --- SW DESIGN PRINCIPLES ---
 
 DRY - Don't Repeat Yourself - avoid duplicate code;
